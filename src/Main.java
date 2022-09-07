@@ -59,5 +59,14 @@ public class Main {
         float totalWeight = banana + milk + cream + egg;
         System.out.println("Вес спорт-завтрака составляет " + totalWeight + " грамм или " + (totalWeight / 1000) + " килограмм");
 
+        // Задача 7
+        int desiredWeight = 7 * 1000;
+        int firstWeight = 250;
+        int secondWeight = 500;
+        int days = desiredWeight / firstWeight;
+        int days2 = desiredWeight / secondWeight;
+        int averageWeight = desiredWeight / ((firstWeight + secondWeight) / 2);
+        System.out.println("Если спортсмен будет терять по 250 грамм в день, потребуется " + days + " дней, а если 500 грамм, то " + days2 + " дней, в среднем же " + averageWeight + " дней");
+
     }
 }
