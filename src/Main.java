@@ -43,17 +43,6 @@ public class Main {
         System.out.println("За 3 дня машина произвела бутылок " + bottleThree + " штук");
         System.out.println("За месяц машина произвела бутылок " + BottlesPerMonth + " штук");
 
-        // Задача 4
-        int bottlePerMinute = 16 / 2;
-        int bottleTwenty = bottlePerMinute * 20;
-        int bottlePerDay = bottlePerMinute * 1440;
-        int bottleThree = bottlePerMinute * 4320;
-        int BottlesPerMonth = bottlePerMinute * 43200;
-        System.out.println("За 20 минут машина произвела бутылок " + bottleTwenty + " штук");
-        System.out.println("За сутки машина произвела бутылок " + bottlePerDay + " штук");
-        System.out.println("За 3 дня машина произвела бутылок " + bottleThree + " штук");
-        System.out.println("За месяц машина произвела бутылок " + BottlesPerMonth + " штук");
-
         // Задача 5
         int totalCans = 120;
         int brownJar = 4;
@@ -61,6 +50,14 @@ public class Main {
         int cansPerClass = brownJar + whiteJar;
         int totalClasses = totalCans / cansPerClass;
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + (totalClasses * whiteJar) + " банок белой краски и " + (totalClasses * brownJar) + " банок коричневой краски");
+
+        // Задача 6
+        int banana = 5 * 80;
+        int milk = 2 * 105;
+        int cream = 2 * 100;
+        int egg = 4 * 70;
+        float totalWeight = banana + milk + cream + egg;
+        System.out.println("Вес спорт-завтрака составляет " + totalWeight + " грамм или " + (totalWeight / 1000) + " килограмм");
 
     }
 }
