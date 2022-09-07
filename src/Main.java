@@ -7,6 +7,7 @@ public class Main {
         long d = 11L;
         float e = 1.5f;
         double f = 1.77;
+
        System.out.println("Значение переменной a с типом int равно " + a);
        System.out.println("Значение переменной b с типом byte равно " + b);
        System.out.println("Значение переменной c с типом short равно " + c);
@@ -18,9 +19,9 @@ public class Main {
         float one = 27.12f;
         long two = 987_678_965_549L;
         double three = 2.786;
-        boolean four = one < two;
-        int five = 569;
-        short six = -159;
+        boolean four = false;
+        char five = 569;
+        int six = -159;
         short seven = 27897;
         byte eight = 67;
 
@@ -68,5 +69,15 @@ public class Main {
         int averageWeight = desiredWeight / ((firstWeight + secondWeight) / 2);
         System.out.println("Если спортсмен будет терять по 250 грамм в день, потребуется " + days + " дней, а если 500 грамм, то " + days2 + " дней, в среднем же " + averageWeight + " дней");
 
+        // Задача 8
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaYear = masha * 12;
+        int denisYear = denis * 12;
+        int kristinaYear = kristina * 12;
+        System.out.println("Маша теперь получает " + (masha + (masha / 10)) + " рублей. Годовой доход вырос на " + (((masha + (masha / 10)) * 12) - mashaYear) + " рублей");
+        System.out.println("Денис теперь получает " + (denis + (denis / 10)) + " рублей. Годовой доход вырос на " + (((denis + (denis / 10)) * 12) - denisYear) + " рублей");
+        System.out.println("Кристина теперь получает " + (kristina + (kristina / 10)) + " рублей. Годовой доход вырос на " + (((kristina + (kristina / 10)) * 12) - kristinaYear) + " рублей");
     }
 }
