@@ -14,6 +14,15 @@ public class Main {
        System.out.println("Значение переменной e с типом float равно " + e);
        System.out.println("Значение переменной f с типом double равно " + f);
 
+        // Задача 2
+        float one = 27.12f;
+        long two = 987_678_965_549L;
+        double three = 2.786;
+        boolean four = one < two;
+        int five = 569;
+        short six = -159;
+        short seven = 27897;
+        byte eight = 67;
 
     }
 }
