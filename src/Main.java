@@ -32,5 +32,16 @@ public class Main {
         int allChildren = lyudmilaPavlovna + annaSergeyevna + ekaterinaAndreevna;
         System.out.println("На каждого ученика рассчитано " + (allPaper / allChildren) + " листов бумаги");
 
+        // Задача 4
+        int bottlePerMinute = 16 / 2;
+        int bottleTwenty = bottlePerMinute * 20;
+        int bottlePerDay = bottlePerMinute * 1440;
+        int bottleThree = bottlePerMinute * 4320;
+        int BottlesPerMonth = bottlePerMinute * 43200;
+        System.out.println("За 20 минут машина произвела бутылок " + bottleTwenty + " штук");
+        System.out.println("За сутки машина произвела бутылок " + bottlePerDay + " штук");
+        System.out.println("За 3 дня машина произвела бутылок " + bottleThree + " штук");
+        System.out.println("За месяц машина произвела бутылок " + BottlesPerMonth + " штук");
+
     }
 }
