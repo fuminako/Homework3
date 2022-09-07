@@ -24,5 +24,13 @@ public class Main {
         short seven = 27897;
         byte eight = 67;
 
+        // Задача 3
+        int lyudmilaPavlovna = 23;
+        int annaSergeyevna = 27;
+        int ekaterinaAndreevna = 30;
+        int allPaper = 480;
+        int allChildren = lyudmilaPavlovna + annaSergeyevna + ekaterinaAndreevna;
+        System.out.println("На каждого ученика рассчитано " + (allPaper / allChildren) + " листов бумаги");
+
     }
 }
